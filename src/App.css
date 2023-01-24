@@ -1,0 +1,65 @@
+.title-container{
+    width: 100%;
+    height: 70vh;
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    
+    width: 50em;
+    
+}
+
+.title h1{
+    font-size: 4em;
+    margin-top: -.5em;
+}
+
+.title h2{
+    font-size: 2em;
+}
+
+.title p{
+    border-top: 1px solid white;
+    padding: 1em;
+    margin-top: -1em;
+    width: 30em;
+    font-weight: 300;
+}
+
+.button-container{
+   
+
+    width: 40em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button-container a{
+    padding: 1em;
+    border-radius: 16px;
+    width: 15em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(0 0 0 / 75%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    /* border: 1px solid white; */
+}
+
+
+.footer-box{
+    background: rgb(0 0 0 / 75%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+    width: 100%;
+    height: 20em;
+    margin-top: 10em;
+}

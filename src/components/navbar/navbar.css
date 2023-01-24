@@ -1,0 +1,52 @@
+.logo-container{
+    /* border: 1px solid white; */
+
+    width: 20em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.logo-container div{
+    /* border: 1px solid white; */
+    overflow: hidden;
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.logo-container div img{
+    width: 100%;
+}
+
+.nav-container{
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: rgb(0 0 0 / 75%);
+    box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
+    backdrop-filter: blur(10.2px);
+    -webkit-backdrop-filter: blur(10.2px);
+}
+    
+.item-container{
+    width: 30%;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.App{
+    /* border: 1px solid white; */
+    min-height: 100vh;
+    background-image: url(../../assets/kendo-men.jpg);
+    background-size: cover;
+  }
