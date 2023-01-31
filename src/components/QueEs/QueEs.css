@@ -1,0 +1,76 @@
+.que-es-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+    width: 100%;
+    min-height: 60vh;
+}
+
+
+.kendo-container{
+    margin-bottom: 10em;
+    font-weight: 200;
+    width: 100%;
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.kendo-Text{
+    width: 50%;
+}
+
+.kendo-Text p{
+    padding: 1em;
+    width: 80%;
+    border-top: 1px solid white;
+    
+}
+
+.kendo-Text h3{
+    font-weight: 300;
+}
+
+.kendo-image{
+    overflow: hidden;
+    width: 30%;
+    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.kendo-image img{
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:1000px ){
+    .kendo-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column-reverse;
+    }
+
+    .kendo-Text{
+        width: 80%;
+    }
+
+   .kendo-image{
+    margin-bottom: 5em;
+    width: 80%;
+   }
+}
+
+@media screen and (max-width:700px ){
+    .kendo-Text p{
+        width: 100% ;
+    }
+}

@@ -1,0 +1,89 @@
+.container-pens{
+    
+    width: 100%;
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em;
+}
+
+.image-container{
+    width: 50%;
+    height: 60vh;
+
+    overflow: hidden;
+
+}
+
+.image-container img{
+    width: 100%;
+}
+
+.text-container{
+    width: 50%;
+
+    
+}
+
+.text-container p{
+    width: 80%;
+    font-weight: 200;
+    border-top: 1px solid white;
+    text-align: justify;
+    padding: 1em;
+}
+
+
+.text-container h3{
+    font-weight: 300;
+}
+
+.firma{
+   
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 80%;
+}
+
+#firma{
+    width: 90px;
+}
+
+#sello{
+    width: 40px;
+}  
+
+#fudo{
+    width:70px
+}
+
+
+@media screen and (max-width:1000px ){
+    .container-pens{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .text-container{
+        width: 90%;
+        margin-bottom: 5em;
+    }
+
+    .image-container{
+        width: 90%;
+    }
+
+    .text-container p{
+        width: 100%;
+    }
+
+    .firma{
+        width: 100%;
+    }
+}

@@ -1,10 +1,26 @@
+.landing-container{
+    width: 100%;
+    min-height: 100vh;
+    border:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .title-container{
     width: 100%;
-    height: 70vh;
+    height: 100vh;
     margin-top: 5em;
     display: flex;
     align-items: center;
     justify-content: center;
+
+    border:none;
+
+    background-image: url(../src/assets/kendo-men.jpg);
+    background-size: cover;
+    margin-top: 0;
 }
 
 .title{
@@ -64,10 +80,20 @@
     margin-top: 10em;
 }
 
+
+.container-pensamiento{
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10em;
+}
+
 @media screen and (max-width:700px ){
     .title-container{
        
-        width: 95%;
+        width: 100%;
         align-self: center;
     }
 

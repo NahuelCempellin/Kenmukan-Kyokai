@@ -47,8 +47,7 @@
 .App{
     /* border: 1px solid white; */
     min-height: 100vh;
-    background-image: url(../../assets/kendo-men.jpg);
-    background-size: cover;
+    
   }
 
 .responsive-nav{

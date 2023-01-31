@@ -13,8 +13,7 @@ const Navbar = () => {
         <div className='item-container'>
             <a>Home</a>
             <a>Noticias</a>
-            <a>Kendo</a>
-            <a>Iaido</a>
+            <a>Kendo / Iaido</a>
             <a>Sedes</a>
             <a>Contacto</a>
         </div>
