@@ -7,7 +7,7 @@ const Footer = () => {
     <div className='footer'>
         <div className='redes-box'>
         <p>Contacto</p>
-        <p>Kenmukan@gmail.com</p>
+        <p>kenmukan.kyokai@gmail.com</p>
 
         <div className='redes-container'>
            
@@ -21,7 +21,7 @@ const Footer = () => {
             <SiInstagram/>
             </a>
         </div>
-        <p>© Copyright - kenmukan kyokai </p>
+        <p>© Copyright - kenmukan kyokai</p>
         </div>
 
         <div className='message-box'>
