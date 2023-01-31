@@ -38,10 +38,13 @@ const Sedes = () => {
                             <a href={el.instagram} target='_blank'><SiInstagram/></a>
                             <a href={el.mail} target='_blank'><SiGmail/></a>
                         </div>
-
+                            {
+                                el.ubicacion ? 
                         <div className='mapa-cont'>
-                            <a>Ver mapa</a>
+                            <a href={el.ubicacion} target={'_blank'}>Ver mapa</a>
                         </div>
+                            :null
+                            }
                     </div>
                 )
             })}

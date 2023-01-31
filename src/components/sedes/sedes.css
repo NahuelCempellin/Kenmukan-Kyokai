@@ -96,6 +96,11 @@ justify-items: center;
     padding: 1em;
 }
 
+.mapa-cont a{
+    color: white;
+    text-decoration: none;
+}
+
 
 @media screen and (max-width:1000px ){
     .cards-container{
