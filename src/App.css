@@ -66,6 +66,8 @@
     box-shadow: 0 4px 30px rgb(0 0 0 / 10%);
     backdrop-filter: blur(10.2px);
     -webkit-backdrop-filter: blur(10.2px);
+    color: white;
+    text-decoration: none;
     /* border: 1px solid white; */
 }
 
@@ -111,10 +113,13 @@
         flex-direction: column;
         width: 100%;
 
+       
+
     }
 
     .button-container a{
         margin-bottom: 2em;
+        
     }   
 
     .title{

@@ -44,6 +44,11 @@
     justify-content: space-around;
 }
 
+.item-container a{
+    color: white;
+    text-decoration: none;
+}
+
 .App{
     /* border: 1px solid white; */
     min-height: 100vh;

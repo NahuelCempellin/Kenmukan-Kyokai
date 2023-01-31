@@ -13,7 +13,7 @@ function App() {
           <Routes>
           <Route path='/' element={<Landing/>}/> 
           </Routes>
-          <div className='footer-box'>
+          <div className='footer-box' id='footer'>
             <Footer/>
           </div>
     </div>

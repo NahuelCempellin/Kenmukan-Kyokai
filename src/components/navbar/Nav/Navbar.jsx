@@ -11,11 +11,11 @@ const Navbar = () => {
 
 
         <div className='item-container'>
-            <a>Home</a>
-            <a>Noticias</a>
-            <a>Kendo / Iaido</a>
-            <a>Sedes</a>
-            <a>Contacto</a>
+            <a href='#landing'>Home</a>
+            {/* <a>Noticias</a> */}
+            <a href='#kendo'>Kendo / Iaido</a>
+            <a href='#sedes'>Sedes</a>
+            <a href='#footer'>Contacto</a>
         </div>
 
 
