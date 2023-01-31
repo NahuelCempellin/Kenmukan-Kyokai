@@ -11,7 +11,7 @@ const Footer = () => {
 
         <div className='redes-container'>
            
-           <a>
+           <a target={'_blank'} href='https://www.facebook.com/kenmukan'> 
              <SiFacebook/>
             </a>
             <a>
