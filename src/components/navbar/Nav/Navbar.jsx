@@ -20,7 +20,7 @@ const Navbar = () => {
 
 
         <div className='responsive-nav'>
-          <RxHamburgerMenu/>
+          {/* <RxHamburgerMenu/> */}
         </div>
     </div>
   )
