@@ -14,11 +14,11 @@
     margin-top: 5em;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 
     border:none;
 
-    background-image: url(../src/assets/kendo-men.jpg);
+    background-image: url(../src/assets/Tozume.jpg);
     background-size: cover;
     margin-top: 0;
 }
@@ -26,6 +26,7 @@
 .title{
     
     width: 50em;
+    margin-left: 10%;
     
 }
 
