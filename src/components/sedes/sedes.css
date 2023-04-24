@@ -55,6 +55,8 @@ justify-items: center;
     width: 7em;
     height: 7em;
     overflow: hidden;
+    
+    margin-right: 1em;
 }
 
 .card-image img{
