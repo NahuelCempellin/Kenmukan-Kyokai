@@ -16,9 +16,7 @@ const Navbar = () => {
         <a href="#footer">Contacto</a>
       </div>
 
-      <div className="responsive-nav">
-        <RxHamburgerMenu />
-      </div>
+      <div className="responsive-nav">{/* <RxHamburgerMenu /> */}</div>
     </div>
   );
 };
