@@ -2,17 +2,19 @@ import kmk from "../../assets/Logo.png";
 import joon from "../../assets/joon.png";
 import mdp from "../../assets/mdpBudokai.png";
 import kensei from "../../assets/Kensei.png";
+import ryu from "../../assets/ryushinkan.jpeg";
+import Tenri from "../../assets/Tenrikyo2.png";
 
 export const CardData = [
   {
-    dojo: "Kenmu-Jingu",
-    jp: " 劍無-神宮",
-    image: kmk,
-    localizacion: "Vte Lopez GBA",
-    ubicacion: "https://maps.app.goo.gl/yKnGSNzHtcgu2SSm9",
+    dojo: "Tenrikyo",
+    jp: "天理教",
+    image: Tenri,
+    localizacion: "Munro",
+    ubicacion: "https://goo.gl/maps/Rb997hb7FL3zHBUb8",
     profesor: "Gustavo Jacinto 5° Dan",
-    dias: "Sabados, (Solo profesores e invitados especiales)",
-    direccion: "Av Maipu 1100",
+    dias: "Miercoles y Sabados",
+    direccion: "Esteban Echeverrìa 2596",
     Horario: {
       iaido: "14hs-16hs",
       kendo: "16hs-17:30hs",
@@ -55,6 +57,23 @@ export const CardData = [
     mail: "kenmukan.kyokai@gmail.com",
     facebook: "https://www.facebook.com/kenmukan",
     instagram: "https://www.instagram.com/joongaangdojo/",
+  },
+  {
+    dojo: "Ryushinkan",
+    jp: "龍心館",
+    image: ryu,
+    localizacion: "Moron",
+    ubicacion: "https://goo.gl/maps/2XwsiLz4LcU1iCyq9",
+    profesor: "Miguel Angel Holt 1° Dan",
+    categoria: "1° Dan",
+    dias: "Miercoles y Sabados",
+    direccion: "Grito de Alcorta 1787",
+    Horario: {
+      kendo: "21hs-23:30hs",
+    },
+    mail: "miguelangel.holt@gmail.com",
+    facebook: "",
+    instagram: "https://instagram.com/ryushinkaniaido?igshid=Y2IzZGU1MTFhOQ==",
   },
   {
     dojo: "Kenseikan",
