@@ -1,6 +1,6 @@
 .logo-container{
     /* border: 1px solid white; */
-    width: 17em;
+    width: 15em;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,8 +23,8 @@
     height: 80px;
 }
 .logo-caligrafia{
-    width: 200px;
-    height: 50px;
+    width: 150px;
+    height: 35px;
 }
 
 .nav-container{
