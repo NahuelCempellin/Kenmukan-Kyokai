@@ -100,6 +100,11 @@
         align-self: center;
     }
 
+    #title-container{
+    background-image: url(../src/assets/Tozume1.png);
+
+    }
+
     .App{
         display: flex;
         align-items: center;
