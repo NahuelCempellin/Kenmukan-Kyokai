@@ -22,15 +22,11 @@ const Footer = () => {
             </a>
         </div>
         <p>© Copyright - kenmukan kyokai</p>
+        <hr/>
+        <a className='link' href='http://nahuelcempellin.vercel.app' target='_blank'>Desarrollado por Nahuel Cempellin</a>
         </div>
 
-        <div className='message-box'>
-            <p>Envianos un mensaje</p>
-            <input placeholder='Nombre...'/>
-            <input placeholder='Mail...'/>
-            <input placeholder='Asunto...'/>
-            <textarea placeholder='Mensaje...'/>
-        </div>
+       
     </div>
   )
 }
